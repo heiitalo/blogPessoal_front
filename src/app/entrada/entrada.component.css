@@ -1,0 +1,12 @@
+#bg-entrada{
+    background-image: url('https://live.staticflickr.com/65535/51642623218_1538a159a7_b.jpg');
+    
+    min-height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
