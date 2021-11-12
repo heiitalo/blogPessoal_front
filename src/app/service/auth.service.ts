@@ -15,7 +15,7 @@ export class AuthService {
 
   entrar(userLogin: UsuarioLoginDTO): Observable<UsuarioLoginDTO> {
 
-    return this.http.post<UsuarioLoginDTO>('blogpo.herokuapp.com/usuarios/logar', userLogin)
+    return this.http.post<UsuarioLoginDTO>('https://blogpessoalitalo.herokuapp.com/usuarios/logar', userLogin)
   }
 
   cadastrar(usuario : Usuario): Observable<Usuario>{
